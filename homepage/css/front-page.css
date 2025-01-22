@@ -1,0 +1,791 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#F1A5AD ;
+    display: inline-block;
+
+    /* background-image: url('../images/imageg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.header-container{
+    padding: 70px 0;
+    text-align: center;
+    /* background: -webkit-linear-gradient(#F1A5AD, #893271, #160121 ); */
+    background: -webkit-linear-gradient(#F1A5AD, #CF7793 );
+    color: #160121;
+    font-size: 100px;
+    
+}
+
+
+.ul-container{
+    margin: 0;
+    display: inline-block;
+    padding: 45px 0;
+    width: 100%;
+    background-color: #160121;
+
+
+    
+    
+}
+
+.ul-container a:hover{
+    background-color: #CF7793;
+    color:#3C0A44;
+}
+
+.li-nav {
+    float: left;
+    list-style-type: none;
+    width: 25%;
+    text-align: center;
+}
+
+
+.ul-container a{
+    text-decoration: none;
+    color: #CF7793;
+    padding: 30px;
+    font-size: 40px;
+    letter-spacing: 1.2px
+}
+
+
+.row{
+    margin: 30px 10px;
+    padding: 10px;
+}
+
+.row::after {
+    display: table;
+    content: '';
+    clear: both;
+    
+}
+
+.intro {
+    background-color: rgba(207, 119, 147, 0.5);
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+/*About*/
+
+.about-container {
+    width: 30%;
+    background-color: #CF7793;
+    padding: 50px;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+    font-size: 22px;
+    border-radius: 7px;
+}
+
+
+
+.about-img {
+    width: 100%;
+    background-image: url('../images/qua.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+
+
+#wh-h1{
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+#wh-h1 span{
+    color:gold;
+}
+
+
+
+#img-p{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/*FAQS*/
+
+.FAQs-container{
+    overflow: hidden;
+    width: 68%;
+    padding: 40px;
+    background-color: #3C0A44 ;
+    color: #F1A5AD;
+    margin-left: 2%;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.FAQs-container h1 {
+    padding: 20px
+}
+
+
+.FAQs-image {
+    width: 90%;
+    background-image: url('../images/pumpkin1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 20px;
+    height: 300px;
+    padding: 50px;
+    color:#160121;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.FAQs-more {
+    padding: 50px;
+    background-color: rgba(207, 119, 147, 0.5);
+    width: 30%;
+    float: left;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -8.5%;
+    
+}
+
+
+.FAQs-more h1{
+    text-align: center;
+    font-size: 18px;
+}
+
+.FAQs-more a {
+    text-decoration: none;
+    color:#160121;
+}
+
+.FAQs-last {
+    width: 100%;
+}
+
+.FAQs-ol {
+    text-align: left;
+    margin-left: 15px;
+    width: 60%;
+    float: left;
+
+}
+
+
+.FAQs-li, .FAQs-ol-p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.FAQs-ol-p {
+    display: none;
+}
+
+
+.FAQs-ol a {
+    text-decoration: none;
+    color:#F1A5AD;
+}
+.FAQs-ask{
+    width: 35%;
+    float: right;
+}
+#btnsub{
+    padding: 20px 25px;
+    margin: 5% 15%;
+    background-color: #F1A5AD;
+    color:#3C0A44;
+    font-size: 18px;
+    border-radius: 8px;
+    transition-duration: .8s;
+}
+
+#btnsub:hover{
+    background-color:#160121;
+    color:bisque;
+    box-shadow: 0 0 0.3 1 #3C0A44;
+    
+}
+
+
+textarea{
+    resize: none;
+    background-color: pink;
+    float: left;
+    border-radius: 10px;
+    
+    
+}
+
+
+textarea::placeholder{
+    font-style: italic;
+    text-align: center;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header-faqs {
+    width: 100%;
+    padding: 20px;
+}
+
+.header-faqs h1 {
+    float: left;
+    width: 50%;
+}
+#askme{
+    text-align: center;
+}
+
+.header > p {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 23px;
+    line-height: 2.2rem;
+}
+
+
+
+
+
+#header-h1{
+   float: right;
+}
+
+
+/*Cryptos*/
+
+
+.crypto-container {
+    width: 100%;
+    background-color: #CF7793;
+    padding: 50px;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+    font-size: 22px;
+    border-radius: 7px;
+}
+
+
+.crypto-container h1, .crypto-about #img-p, .crypto-about h1 {
+    margin-top: 30px;
+}
+
+.crypto-img {
+    width: 100%;
+    margin: 20px 10px;
+    float: left;
+}
+
+.c-img{
+    width: 30%;
+    height: 700px;
+    float: left;
+    background-image: url("../images/qua1.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
+    margin: 0% 1%;
+    mix-blend-mode: multiply;
+
+} 
+
+.crypto-about h1 {
+    margin-top: 50px;
+}
+
+
+
+/* Sponsors */
+
+.sponsors-img {
+    width: 100%;
+    padding: 50px;
+    display: inline-block;
+    
+}
+
+.sponsors {
+    width: 21%;
+    background-color: rgba(207, 119, 147, 0.7);
+    text-align: center;
+    padding: 20px;
+    float: left;
+    margin: 20px;
+    height: 220px;
+}
+
+.sponsors h2 {
+    margin: 20%;
+}
+
+.sponsors p {
+    padding: 20px;
+    background-color: rgba(207, 119, 147, 0.5);
+
+}
+
+
+
+
+.sponsors:hover{
+    background:rgba(22, 1, 33, 0.3);
+    color: white;
+}
+
+.sponsors:hover p {
+    background: rgba(60, 10, 68, 0.5);
+    color: #FC99C4
+}
+
+
+/*Footer*/
+
+.footer-container {
+    display: inline-block;
+    padding: 40px;
+    background-color: #160121;
+    color:antiquewhite;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.footer-container a {
+    text-decoration: none;
+    color:antiquewhite;
+  
+}
+
+.footer-container li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+
+.col-1, .col-2, .col-3, .col-4 {
+    width: 20%;
+    float: left;
+}
+
+.col-1 h3, .col-2 h3, .col-3 h3, .col-4 h3{
+   margin: 20px auto;
+}
+
+.col-4 {
+    width: 35%;
+}
+
+#footer-email {
+    padding: 16px;
+    width: 68%;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 2px solid #751384;
+    background-color:  #160121
+
+}
+
+#footer-btn {
+    width: 28%;
+    padding: 17px;
+    background-color: white;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#footer-btn:hover {
+    background-color:#160121;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+
+#footer-email::placeholder{
+    color:antiquewhite;
+    font-size: 16px;
+    
+}
+
+.footer-img{
+    width: 100%;
+    padding: 8px;
+    display: inline-block;
+
+   
+}
+
+.footer{
+    margin: 20px 10px;
+    width: 19.5%;
+    float: left;
+    padding: 20px;
+    color:rgba(60, 10, 68);
+    background-color: white;
+    font-size: smaller;
+    border-radius: 7px;
+    border: 2px solid rgba(60, 10, 68);
+    text-align: center;
+}
+
+
+.footer p {
+    padding: 2px;
+    
+}
+
+    /* mix-blend-mode: ; */
+
+
+
+.footer:hover{
+    background-color:rgba(60, 10, 68, 0.5);
+    color: white;
+    border: 2px solid white;
+
+}
+
+.footer-container{
+    margin-bottom: -10px;
+}
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+/*From 75 - 125*/
+
+.footer-img {
+    padding: 30px
+    
+}
+
+.footer {
+    margin: 10px;
+    width: 100px;
+
+
+}
+}
+
+@media screen and (max-width: 1030px) {
+    /*For 150%*/
+
+
+.about-container {
+    width: 40%;
+    background-color: #CF7793;
+    padding: 45px;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+    font-size: 16px;
+    border-radius: 0px;
+    line-height: 1.5rem;
+}
+
+.about-container h1 {
+    line-height: 2rem;
+}
+
+#wh-h1 {
+    font-size: 17px;
+    padding: 20px;
+    margin-top: 70px;
+    line-height: 1.5rem;
+    word-spacing: 1.2rem;
+    
+}
+
+
+.FAQs-container{
+    overflow: hidden;
+    width: 60%;
+    padding: 40px;
+    background-color: #3C0A44 ;
+    color: #F1A5AD;
+    margin-left: 0%;
+    border-radius: 0px;
+    display: inline-block;
+    
+
+}
+
+
+
+.crypto-container {
+    width: 100%;
+    background-color: #CF7793;
+    padding: 70px;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+
+.crypto-container h1, .crypto-about #img-p, .crypto-about h1 {
+    margin-top: 30px;
+}
+
+.header > p {
+    font-size: 15px;
+}
+
+.FAQs-more {
+    padding: 50px;
+    background-color: rgba(207, 119, 147, 0.5);
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -40.5%;
+}
+
+    .sponsors-img {
+        padding: 30px;
+    }
+
+    .sponsors {
+        width: 20%;
+        margin-left: 25px;
+    }
+
+.footer-container {
+    padding: 20px;
+}
+  
+.footer-img {
+    padding: 20px;
+    
+}
+
+.footer  {
+    margin: 10px;
+    width: 100px;
+
+
+}
+
+#footer-btn {
+    padding: 17px 10px;
+}
+
+.FAQs-li, .FAQs-ol-p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+#btnsub{
+    padding: 15px 20px;
+    margin: 5% 15%;
+    background-color: #F1A5AD;
+    color:#3C0A44;
+    font-size: 13px;
+    border-radius: 8px;
+    transition-duration: .8s;
+}
+
+.header-faqs h1{
+    font-size: 17px;
+}
+}
+
+@media screen and (max-width: 900px) {
+    
+
+
+.about-container {
+        width: 40%;
+        background-color: #CF7793;
+        padding: 45px;
+        text-align: left;
+        overflow: hidden;
+        float: left;
+        font-size: 18px;
+        border-radius: 0px;
+    }
+
+    .FAQs-container{
+        overflow: hidden;
+        width: 60%;
+        padding: 40px;
+        background-color: #3C0A44 ;
+        color: #F1A5AD;
+        margin-left: 0%;
+        border-radius: 0px;
+        display: inline-block;
+    
+    }
+
+    
+.FAQs-more {
+    padding: 50px;
+    background-color: rgba(207, 119, 147, 0.5);
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -20.5%;
+    
+}
+
+
+    .header > p {
+        margin-top: 20px;
+        padding: 20px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.3rem;
+    }
+
+.sponsors-img {
+        padding: 20px;
+    }
+
+.sponsors {
+        width: 20%;
+        margin-left: 20px;
+    }
+
+  
+.footer-img {
+    padding: 20px;
+    
+}
+
+.footer  {
+    margin: 10px;
+    width: 150px;
+
+
+}
+
+.footer-container{
+    font-size: 15px;
+}
+#footer-btn {
+    padding: 14px 5px;
+    border-radius: 16px;
+    font-size: 10px;
+
+}
+#footer-email::placeholder{
+    color:antiquewhite;
+    font-size: 14px;
+    
+}
+
+.FAQs-li, .FAQs-ol-p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+#btnsub{
+    padding: 15px 20px;
+    margin: 5% 15%;
+    background-color: #F1A5AD;
+    color:#3C0A44;
+    font-size: 13px;
+    border-radius: 8px;
+    transition-duration: .8s;
+}
+
+.header-faqs h1{
+    font-size: 15px;
+}
+
+
+}
+
+
+@media screen and (max-width: 880px) {
+    .FAQs-container{
+        padding: 20px;
+    }
+
+    textarea{
+        width: 80%;
+    }
+
+    .ul-container ul{
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+        margin: 0
+    }
+
+    .li-nav{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        float: left;
+    }
+    
+    .ul-container li:hover{
+        background-color: #CF7793;
+        color:#3C0A44;
+    }
+
+    .ul-container li:hover a{
+        color:#3C0A44;
+    }
+    
+    
+    .ul-container a:hover{
+        background-color: transparent;
+        color: #3C0A44
+    }
+
+    .sponsors-img{
+        padding: 10px;
+    
+    }
+
+    .sponsors {
+        width: 19.5%;
+    }
+
+    .sponsors h2{
+        font-size: 21px;
+        margin: 13%;
+        margin-bottom: 40%;
+    }
+}
