@@ -14,13 +14,13 @@ function sendemail_verify($uname, $email) {
     $mail->IsSMTP();
     $mail->SMTPAuth = true;
     $mail->Host = "smtp.gmail.com";
-    $mail->Username = "hatalagtag@gmail.com";
-    $mail->Password = "afqfncjnhertqxhe";
+    $mail->Username = "whiterose.crypt00@gmail.com";
+    $mail->Password = "okhg kxtt lhup xruu";
     $mail->SMTPSecure = "tls";
     $mail->Port = 587;
     
     $mail->AddAddress($email);
-    $mail->SetFrom("hatalagtag@gmail.com", $uname);
+    $mail->SetFrom("whiterose.crypt00@gmail.com", $uname);
     $mail->IsHTML(true);
     $mail->Subject = "Verification of your account";
     
